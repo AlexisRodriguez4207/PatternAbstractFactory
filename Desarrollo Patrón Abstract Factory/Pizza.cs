@@ -45,38 +45,43 @@ namespace Desarrollo_Patrón_Abstract_Factory
             return name;
         }
 
-        //public string ToString()
-        //{
-        //    StringBuilder print = new StringBuilder();
-        //    print.Append("---- " + name + " ----\n");
-        //    if (dough != null)
-        //    {
-        //        print.Append(dough + "\n");
-        //    }
-        //    if (sauce != null)
-        //    {
-        //        print.Append(sauce + "\n");
-        //    }
-        //    if (cheese != null)
-        //    {
-        //        print.Append(cheese + "\n");
-        //    }
-        //    if (veggies != null)
-        //    {
-        //        for (int i = 0; i < veggies.Length; i++)
-        //        { 
-        //            print.Append(veggies[i]);
-        //            if (i < veggies.Length - 1)
-        //            {
-        //                print.Append(", ");
-
-        //            }
-        //        }
-        //        print.Append("\n");
-        //    }
-
-        //}
-
-
+        public string ToString()
+        {
+            StringBuilder print = new StringBuilder();
+            print.Append("---- " + name + " ----\n");
+            if (dough != null)
+            {
+                print.Append(dough + "\n");
+            }
+            if (sauce != null)
+            {
+                print.Append(sauce + "\n");
+            }
+            if (cheese != null)
+            {
+                print.Append(cheese + "\n");
+            }
+            if (veggies != null)
+            {
+                for (int i = 0; i < veggies.Length; i++)
+                {
+                    print.Append(veggies[i]);
+                    if (i < veggies.Length - 1)
+                    {
+                        print.Append(", ");
+                    }
+                }
+                print.Append("\n");
+            }
+            if (clams != null)
+            {
+                print.Append(clams + "\n");
+            }
+            if (pepperoni != null)
+            {
+                print.Append(pepperoni + "\n");
+            }
+            return print.ToString();
+        }
     }
 }

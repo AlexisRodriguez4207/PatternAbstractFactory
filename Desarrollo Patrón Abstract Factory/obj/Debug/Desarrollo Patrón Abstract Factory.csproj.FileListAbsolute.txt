@@ -1,0 +1,7 @@
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\bin\Debug\Desarrollo Patrón Abstract Factory.exe.config
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\bin\Debug\Desarrollo Patrón Abstract Factory.exe
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\bin\Debug\Desarrollo Patrón Abstract Factory.pdb
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\obj\Debug\Desarrollo Patrón Abstract Factory.csproj.AssemblyReference.cache
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\obj\Debug\Desarrollo Patrón Abstract Factory.csproj.CoreCompileInputs.cache
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\obj\Debug\Desarrollo Patrón Abstract Factory.exe
+C:\Users\BALAMRUSH\Desktop\Desarrollo Patrón Abstract Factory\Desarrollo Patrón Abstract Factory\obj\Debug\Desarrollo Patrón Abstract Factory.pdb

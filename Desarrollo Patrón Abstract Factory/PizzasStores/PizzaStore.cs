@@ -15,7 +15,7 @@ namespace Desarrollo_Patrón_Abstract_Factory.PizzasStores
         {
             Pizza pizza = CreatePizza(type);
 
-            Console.WriteLine("--- Making a " + pizza + " ---");
+            Console.WriteLine("--- Making a " + pizza.getName() + " ---");
             pizza.Prepare();
             pizza.Bake();
             pizza.Cut();
