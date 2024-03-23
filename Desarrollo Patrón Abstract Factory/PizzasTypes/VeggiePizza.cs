@@ -19,11 +19,13 @@ namespace Desarrollo_Patrón_Abstract_Factory.PizzasTypes
 
         public override void Prepare()
         {
-            Console.WriteLine("Preparing " + name);
+            
             dough = ingredientFactory.CreateDough();
             sauce = ingredientFactory.CreateSauce();
             cheese = ingredientFactory.CreateCheese();
             veggies = ingredientFactory.CreateVeggies();
+            Console.WriteLine("Preparing " + name + " With " + dough.ToString() + ", " + sauce.ToString() + 
+                ",\n" + cheese.ToString() + ", " + veggies[0].ToString() + ", " + veggies[1].ToString() + " and " + veggies[2].ToString());
         }
     }
 }

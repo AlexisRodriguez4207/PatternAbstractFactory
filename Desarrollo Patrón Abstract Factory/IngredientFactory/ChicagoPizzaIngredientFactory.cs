@@ -34,7 +34,7 @@ namespace Desarrollo_Patrón_Abstract_Factory.IngredientFactory
         }
         public Clams CreateClams()
         {
-            return new FreshClams();
+            return new FrozenClams();
         }
     }
 }

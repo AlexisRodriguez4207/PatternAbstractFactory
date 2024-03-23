@@ -1,4 +1,6 @@
 ﻿using Desarrollo_Patrón_Abstract_Factory.PizzasStores;
+using Desarrollo_Patrón_Abstract_Factory.PizzasTypes;
+using Desarrollo_Patrón_Abstract_Factory.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,7 @@ namespace Desarrollo_Patrón_Abstract_Factory
             PizzaStore chicagoStore = new ChicagoPizzaStore();
 
             Pizza pizza = nyStore.OrderPizza("cheese");
+            
             Console.WriteLine("Ethan ordered a " + pizza.name + "\n");
 
             pizza = chicagoStore.OrderPizza("cheese");
@@ -28,7 +31,7 @@ namespace Desarrollo_Patrón_Abstract_Factory
 
             pizza = nyStore.OrderPizza("pepperoni");
             Console.WriteLine("Ethan ordered a " + pizza.name + "\n");
-            
+
             pizza = chicagoStore.OrderPizza("pepperoni");
             Console.WriteLine("Joel ordered a " + pizza.name + "\n");
 
@@ -37,8 +40,6 @@ namespace Desarrollo_Patrón_Abstract_Factory
 
             pizza = chicagoStore.OrderPizza("veggie");
             Console.WriteLine("Joel ordered a " + pizza.name + "\n");
-
-
         }
 
     }

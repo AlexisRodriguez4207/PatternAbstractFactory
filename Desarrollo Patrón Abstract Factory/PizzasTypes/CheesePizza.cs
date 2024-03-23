@@ -10,19 +10,20 @@ namespace Desarrollo_Patrón_Abstract_Factory.PizzasTypes
 {
     public class CheesePizza : Pizza
     {
-        PizzaIngredientFactory ingredientFactory;
+        public PizzaIngredientFactory _ingredientFactory;
 
-        public CheesePizza(PizzaIngredientFactory ingredientFactory)
+        public CheesePizza(PizzaIngredientFactory _ingredientFactory)
         {
-            this.ingredientFactory = ingredientFactory;
+            this._ingredientFactory = _ingredientFactory;
         }
 
         public override void Prepare()
         {
-            Console.WriteLine("Preparing " + name);
-            dough = ingredientFactory.CreateDough();
-            sauce = ingredientFactory.CreateSauce();
-            cheese = ingredientFactory.CreateCheese();
+            dough = _ingredientFactory.CreateDough();
+            sauce = _ingredientFactory.CreateSauce();
+            cheese = _ingredientFactory.CreateCheese();
+            Console.WriteLine("Preparing " + name + " With " + dough.ToString() + ", " + sauce.ToString() + "\n and  " + cheese.ToString());
+            
         }
     }
 }
